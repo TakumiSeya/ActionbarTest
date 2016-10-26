@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
 
         Button button = new Button(this);
-        button.setText("タイトルを変更する");
+        button.setText("アイコンを変更する");
         button.setOnClickListener(this);
 
         setContentView(button);
@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         ActionBar actionBar = getActionBar();
-        actionBar.setTitle("Hello, ActionBar!!");
-        actionBar.setSubtitle("and, subtitle!!");
+        actionBar.setIcon(R.drawable.ch0219_ic_launcher);
     }
 }

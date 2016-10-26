@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(button);
     }
 
+    // なぜかオーバーライドできない…
     @Override
     public void onClick(View v) {
         ActionBar actionBar = getActionBar();
